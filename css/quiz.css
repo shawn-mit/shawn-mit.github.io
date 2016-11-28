@@ -1,0 +1,55 @@
+.gradient {
+    background-image: linear-gradient(  to right, black, #003953, white);
+}
+
+body {
+    color: white;
+    font-family: 'Federo', sans-serif;
+
+}
+
+img {
+    height: 400px;
+    width: 815px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    border: double orange 1px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+h2, h1, h3, h4, h5,h6 {
+
+    color: white;
+    font-family: 'Federo', sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: orange;
+    margin: 5px 5px 5px 5px;
+}
+
+section {
+    border: solid orange 0.5px;
+    margin: 2em;
+}
