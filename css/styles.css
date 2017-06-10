@@ -1,9 +1,18 @@
-/* FONTS */
+/* MOBILE VIEW  */
 
+@media screen and (max-width: 2000px) {
+    
+body {
+    color: black;
+    background-image: url('../../images/backdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
 
-/* GOOGLE FONTS */
+}
 
-@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
 
 /* NAME FONT */
 
@@ -15,11 +24,16 @@
 
 div .name {
     font-family: bladerunner;
-    font-size: 60px;
+    font-size: 45px;
     overflow-x: hidden;
     color: black;
     text-shadow: 3px 3px 3px orange;
 }
+
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
 
 
 /*IMAGE */
@@ -37,14 +51,7 @@ img{
 
 /* BACKGROUND DESIGN */
 
-body {
-    color: black;
-    background-image: url('../../images/backdrop.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
+
 
 h2,
 h1,
@@ -115,7 +122,7 @@ li a:hover {
 
 .sidenav a:hover,
 .offcanvas a:focus {
-    color: lightgreen;
+    color: white;
 }
 
 .sidenav .closebtn {
@@ -165,7 +172,7 @@ section {
 
 button.accordion.active,
 button.accordion:hover {
-    background-color: black;
+    background-color: white;
 }
 
 button.accordion:after {

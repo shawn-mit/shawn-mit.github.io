@@ -6,6 +6,8 @@
 var acc = document.getElementsByClassName("accordion");
 
 
+
+// this  is for the accordion feature on the divs containing projects and about me section . 
 for (var i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
         this.classList.toggle("active");
@@ -25,4 +27,4 @@ function closeNav() {
 }
 
 
-
+// Transition photo effect // 
